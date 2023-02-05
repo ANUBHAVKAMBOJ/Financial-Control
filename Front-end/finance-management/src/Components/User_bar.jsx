@@ -26,7 +26,7 @@ function User_bar(props) {
             <div className='bg-black' style={{"width": "280px", "height": "760px"}}>
                 <div>
                     <Head/>
-                    <Nav_button ilink={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmb_u3GxKwckvcLfzYvfMx9ipAAtx5-Mz47Q&usqp=CAU'} link={'/'} c={'Dashboard'} active={props.active[0]}/>
+                    <Nav_button ilink={'https://www.pngitem.com/pimgs/m/419-4192097_login-icons-white-transparent-png-download-circle-png.png'} link={'/'} c={'Dashboard'} active={props.active[0]}/>
                     <Nav_button ilink={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmb_u3GxKwckvcLfzYvfMx9ipAAtx5-Mz47Q&usqp=CAU'} link={'/'} c={'Transactions'} active={props.active[1]}/>
                     <Nav_button ilink={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmb_u3GxKwckvcLfzYvfMx9ipAAtx5-Mz47Q&usqp=CAU'} link={'/'} c={'Add transactions'} active={props.active[2]}/>
                     <Nav_button ilink={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmb_u3GxKwckvcLfzYvfMx9ipAAtx5-Mz47Q&usqp=CAU'} link={'/'} c={'Goals'} active={props.active[3]}/>

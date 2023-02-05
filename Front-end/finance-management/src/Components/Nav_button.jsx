@@ -11,7 +11,7 @@ function Nav_button(props) {
             <button>
                 <div className={st} style={{"display": "flex", "flex-direction": "row", "height": "38px", "width": "250px", "border-radius": "10px"}}>
                     <div style={{"width": "16px", "margin-top": "11px", "margin-left": "22px"}}>
-                        <img src={props.ilink}/>
+                        <img src={props.ilink} className='rounded-md'/>
                     </div>
                     <div style={{"margin-left": "20px", "margin-top": "6px"}}>
                         {props.c}

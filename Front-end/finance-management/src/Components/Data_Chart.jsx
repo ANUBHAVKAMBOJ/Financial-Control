@@ -1,5 +1,6 @@
 import React from 'react';
 import { Bar } from "react-chartjs-2";
+import {Chart as chartjs} from 'chart.js/auto'
 
 function Data_Chart(props) {
 
@@ -28,7 +29,7 @@ function Data_Chart(props) {
 
 
   return (
-    <div style={{"width": "800px", "height": "700px"}}>
+    <div style={{"width": "580px", "height": "325px", "background": "white"}} className='shadow-xl rounded-xl p-5'>
         <Bar data={data} options={options}/>
     </div>
   )
